@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace KataTDD.Lib
+namespace KataTDD.Lib.StringCalculators
 {
     public class StringCalculator
     {

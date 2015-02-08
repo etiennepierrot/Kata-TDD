@@ -1,5 +1,5 @@
 ﻿using System;
-using KataTDD.Lib;
+using KataTDD.Lib.StringCalculators;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace KataTDD.Test
