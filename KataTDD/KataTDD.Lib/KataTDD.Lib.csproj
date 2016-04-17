@@ -43,9 +43,17 @@
     <Compile Include="BowlingGames\Game.cs" />
     <Compile Include="BowlingGames\Roll.cs" />
     <Compile Include="BowlingGames\TenthFrame.cs" />
+    <Compile Include="CofeeMachine\BeverageQuantityChecker.cs" />
     <Compile Include="CofeeMachine\BoissonEnum.cs" />
+    <Compile Include="CofeeMachine\Chocolate.cs" />
+    <Compile Include="CofeeMachine\Coffee.cs" />
     <Compile Include="CofeeMachine\CoffeMachine.cs" />
+    <Compile Include="CofeeMachine\Drink.cs" />
+    <Compile Include="CofeeMachine\DrinkFactory.cs" />
+    <Compile Include="CofeeMachine\EmailNotifier.cs" />
+    <Compile Include="CofeeMachine\Orange.cs" />
     <Compile Include="CofeeMachine\Order.cs" />
+    <Compile Include="CofeeMachine\Tea.cs" />
     <Compile Include="Diamonds\Diamond.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringCalculators\NegativesNotAllowedException.cs" />

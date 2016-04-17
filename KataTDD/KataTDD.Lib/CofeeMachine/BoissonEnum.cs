@@ -4,6 +4,7 @@ namespace KataTDD.Lib.CofeeMachine
     {
         Tea,
         Chocolate,
-        Coffee
+        Coffee,
+        Orange
     }
 }
