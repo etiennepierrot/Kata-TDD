@@ -56,6 +56,11 @@
     <Compile Include="CofeeMachine\Tea.cs" />
     <Compile Include="Diamonds\Diamond.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringCalculatorsV2\ILogger.cs" />
+    <Compile Include="StringCalculatorsV2\IWebService.cs" />
+    <Compile Include="StringCalculatorsV2\NegativeNotAllowedException.cs" />
+    <Compile Include="StringCalculatorsV2\StringCalculator.cs" />
+    <Compile Include="StringCalculatorsV2\StringExtractor.cs" />
     <Compile Include="StringCalculators\NegativesNotAllowedException.cs" />
     <Compile Include="StringCalculators\StringCalculator.cs" />
   </ItemGroup>
