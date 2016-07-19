@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataTDD.Lib", "KataTDD.Lib\KataTDD.Lib.csproj", "{343B1652-25CB-4E1D-8013-A4343A965022}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataTDD.Test", "KataTDD.Test\KataTDD.Test.csproj", "{C757FB31-F5D8-4FE4-BA32-82F0F9855E65}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiamonConsole", "DiamonConsole\DiamonConsole.csproj", "{2A0502BA-A4EA-4890-932D-3FA6F6A39C6B}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FuncKata", "FuncKata\FuncKata.fsproj", "{CC12C906-3D7B-41AE-81A0-A8281DBAD4FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{2A0502BA-A4EA-4890-932D-3FA6F6A39C6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A0502BA-A4EA-4890-932D-3FA6F6A39C6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A0502BA-A4EA-4890-932D-3FA6F6A39C6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC12C906-3D7B-41AE-81A0-A8281DBAD4FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC12C906-3D7B-41AE-81A0-A8281DBAD4FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC12C906-3D7B-41AE-81A0-A8281DBAD4FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC12C906-3D7B-41AE-81A0-A8281DBAD4FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
