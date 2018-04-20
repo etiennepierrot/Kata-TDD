@@ -5,6 +5,8 @@ using NUnit.Framework;
 
 namespace KataTDD.Test
 {
+ 
+
     public class StringCalculatorV2Test
     {
         private StringCalculator _stringCalculator;

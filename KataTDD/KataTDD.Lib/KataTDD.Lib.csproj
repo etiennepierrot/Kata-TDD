@@ -30,6 +30,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.5.0\lib\net45\nunit.framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -55,6 +59,13 @@
     <Compile Include="CofeeMachine\Order.cs" />
     <Compile Include="CofeeMachine\Tea.cs" />
     <Compile Include="Diamonds\Diamond.cs" />
+    <Compile Include="MontyHallProblems\Door.cs" />
+    <Compile Include="MontyHallProblems\DoorsFactory.cs" />
+    <Compile Include="MontyHallProblems\GameResult.cs" />
+    <Compile Include="MontyHallProblems\IDoorsFactory.cs" />
+    <Compile Include="MontyHallProblems\MontyGame.cs" />
+    <Compile Include="MontyHallProblems\Prize.cs" />
+    <Compile Include="MontyHallProblems\Strategy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringCalculatorsV2\ILogger.cs" />
     <Compile Include="StringCalculatorsV2\IWebService.cs" />
@@ -63,6 +74,9 @@
     <Compile Include="StringCalculatorsV2\StringExtractor.cs" />
     <Compile Include="StringCalculators\NegativesNotAllowedException.cs" />
     <Compile Include="StringCalculators\StringCalculator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
